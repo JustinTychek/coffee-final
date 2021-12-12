@@ -1,0 +1,365 @@
+nav {
+  height: 160px;
+  width: 100%;
+
+  .top-nav {
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 43px;
+    padding-bottom: 0px;
+
+    .logo {
+      width: 176px;
+      height: 28px;
+      background-image: url(../images/keurig-logo.svg);
+      background-position: center;
+      background-size: cover;
+    }
+
+    .search-holder {
+      position: relative;
+
+      .search-icon {
+        position: absolute;
+        width: 32px;
+        margin-left: 20px;
+        margin-top: 6px;
+      }
+
+      .search-bar {
+        width: 610px;
+        height: 42px;
+        background-color: #f3f3f3;
+        border-radius: 30px;
+        outline: none;
+        border: solid rgb(170, 170, 170) 1px;
+        padding-left: 70px;
+      }
+    }
+
+    .search-bar::placeholder {
+      color: #303c4b;
+      font-family: OpenSansSemiBold;
+      font-size: 14px;
+    }
+    .right-side-items {
+      width: 275px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-right: 13px;
+
+      .free-ship {
+        margin-bottom: 0;
+        font-family: OpenSansLight;
+      }
+
+      .profile-icon {
+        height: 32px;
+        color: #373737;
+        cursor: pointer;
+      }
+
+      .cart-icon {
+        height: 34px;
+        width: 34px;
+        // object-fit: contain;
+        cursor: pointer;
+        background-image: url(../images/icons/cart-icon.jpg);
+        background-position: center;
+        background-size: cover;
+      }
+    }
+  }
+
+  .modal {
+    // display: none;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+
+    .bg-click {
+      position: fixed;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(128, 128, 128, 0.514);
+    }
+
+    .callout {
+      position: absolute;
+      top: 95px;
+      right: 100px;
+      width: 348px;
+      height: 565px;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 1px 1px 20px 3px rgba(32, 32, 32, 0.212);
+      border-radius: 15px;
+      padding: 20px;
+
+      .form-titles {
+        display: block;
+        font-size: 22px;
+      }
+
+      input {
+        height: 36px;
+        padding-left: 11px;
+        letter-spacing: 1px;
+      }
+
+      input::placeholder {
+        color: #7b7a7e;
+        letter-spacing: 1px;
+      }
+
+      button {
+        height: 36px;
+        width: 100%;
+        border-radius: 30px;
+        background-color: #3b2b2f;
+        outline: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+      }
+
+      .login-form {
+        height: 150px;
+        margin-bottom: 45px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+      }
+
+      .signup-form {
+        height: 240px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+      }
+
+      .account-info {
+        display: none;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        .a-info-text {
+          text-decoration: none;
+          color: black;
+          border-bottom: 1px solid rgba(80, 80, 80, 0.466);
+          width: 93%;
+          padding: 20px;
+          font-size: 18px;
+        }
+
+        .so-btn {
+          margin-top: 45px;
+        }
+      }
+    }
+  }
+
+  .bottom-nav {
+    height: 35%;
+    width: 80%;
+    // background-color: rgb(201, 201, 201);
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+
+    a {
+      text-decoration: none;
+      font-size: 15px;
+      color: #393939;
+      //   margin-left: 30px;
+      padding: 10px 15px;
+      border-radius: 7px;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    a:hover {
+      background-color: #dddddd;
+    }
+
+    .deals {
+      color: #ca103d;
+      padding-left: 30px;
+    }
+
+    .deals-tag {
+      position: absolute;
+      background-image: url(../images/icons/deals-icon.jpg);
+      height: 14px;
+      width: 14px;
+      background-position: center;
+      background-size: cover;
+      right: 202px;
+    }
+  }
+
+  .search-2 {
+    position: relative;
+    display: none;
+    width: 98%;
+    z-index: 2;
+
+    .search-icon {
+      position: absolute;
+      width: 32px;
+      margin-left: 20px;
+      margin-top: 6px;
+    }
+
+    .search-bar {
+      width: 98%;
+      height: 42px;
+      background-color: #f3f3f3;
+      border-radius: 30px;
+      outline: none;
+      border: solid rgb(170, 170, 170) 1px;
+      padding-left: 70px;
+    }
+  }
+
+  ::placeholder {
+    color: #303c4b;
+    font-family: OpenSansSemiBold;
+    font-size: 14px;
+  }
+
+  .hamburger {
+    display: none;
+
+    .bar {
+      display: block;
+      width: 36px;
+      height: 3px;
+      margin: 7px auto;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      background-color: #101010;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  nav {
+    .top-nav {
+      .search-holder {
+        .search-bar {
+          width: 350px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1085px) {
+  nav {
+    .bottom-nav {
+      .deals-tag {
+        right: 190px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1052px) {
+  nav {
+    .bottom-nav {
+      .deals-tag {
+        right: 177px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  nav {
+    .top-nav {
+      padding-left: 95px;
+      .logo {
+        margin: 0 auto;
+        padding-left: 50px;
+        width: 120px;
+        height: 20px;
+        height: 20px;
+      }
+
+      .search-holder {
+        display: none;
+      }
+
+      .right-side-items {
+        width: 90px;
+        .free-ship {
+          display: none;
+        }
+      }
+    }
+
+    .bottom-nav {
+      position: fixed;
+      top: 0;
+      left: -160%;
+      flex-direction: column;
+      align-items: baseline;
+      background-color: white;
+      width: 100%;
+      height: 100%;
+      z-index: 98;
+      padding: 0;
+      padding-top: 40px;
+
+      a {
+        width: 100%;
+        border-bottom: 1px solid black;
+      }
+
+      .deals-tag {
+        display: none;
+      }
+    }
+
+    .bottom-nav.active {
+      left: 0;
+    }
+
+    .search-2 {
+      display: block;
+      margin: 0 auto;
+      padding-left: 20px;
+    }
+
+    .hamburger {
+      position: absolute;
+      top: 45px;
+      left: 30px;
+      display: block;
+      cursor: pointer;
+      z-index: 98;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(10px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-10px) rotate(-45deg);
+    }
+  }
+}

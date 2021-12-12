@@ -1,0 +1,23 @@
+footer {
+  height: 70px;
+  width: 81%;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.274);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.548);
+
+  .footer-text-holder {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.548);
+    font-style: italic;
+  }
+}

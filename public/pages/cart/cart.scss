@@ -1,0 +1,38 @@
+.cart {
+  height: calc(100vh - 290px);
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  border-top: 0.5px solid rgba(119, 119, 119, 0.329);
+
+  .filler {
+    height: 30px;
+  }
+
+  .back-btn {
+    // position: absolute;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: black;
+    font-style: 18px;
+    // margin-top: 80px;
+    margin-left: 45px;
+    font-size: 18px;
+  }
+
+  .cart-title,
+  .item-num {
+    width: 100%;
+    text-align: center;
+  }
+
+  .item-num {
+    margin-bottom: 7px;
+    margin-top: 40px;
+  }
+
+  .cart-title {
+    font-style: 40px;
+    letter-spacing: 7px;
+  }
+}

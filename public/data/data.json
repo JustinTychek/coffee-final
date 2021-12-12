@@ -1,0 +1,75 @@
+{
+  "coffee_makers": [
+    {
+      "coffeeImg": "../../images/coffee-makers/cmaker01.webp",
+      "coffeeName": "K-Supreme Plus® SMART Single Serve Coffee Maker",
+      "coffeePrice": "$199.99"
+    },
+
+    {
+      "coffeeImg": "../../images/coffee-makers/cmaker02.webp",
+      "coffeeName": "K-Mini® Single Serve Coffee Maker",
+      "coffeePrice": "$79.99"
+    },
+
+    {
+      "coffeeImg": "../../images/coffee-makers/cmaker03.webp",
+      "coffeeName": "Keurig® K-Select® Coffee Maker",
+      "coffeePrice": "$129.99"
+    },
+
+    {
+      "coffeeImg": "../../images/coffee-makers/cmaker04.webp",
+      "coffeeName": "Keurig® K-Elite® Single Serve Coffee Maker",
+      "coffeePrice": "$179.99"
+    },
+
+    {
+      "coffeeImg": "../../images/coffee-makers/cmaker05.webp",
+      "coffeeName": "K-Slim® Single Serve Coffee Maker",
+      "coffeePrice": "$199.99"
+    },
+
+    {
+      "coffeeImg": "../../images/coffee-makers/cmaker06.webp",
+      "coffeeName": "K-Café® Single Serve Coffee Latte & Cappuccino Maker",
+      "coffeePrice": "$179.99"
+    },
+
+    {
+      "coffeeImg": "../../images/coffee-makers/cmaker07.webp",
+      "coffeeName": "K-Mini® Single Serve Coffee Maker",
+      "coffeePrice": "$79.99"
+    },
+
+    {
+      "coffeeImg": "../../images/coffee-makers/cmaker08.webp",
+      "coffeeName": "K-Duo™ Single Serve & Carafe Coffee Maker",
+      "coffeePrice": "$179.99"
+    },
+
+    {
+      "coffeeImg": "../../images/coffee-makers/cmaker09.webp",
+      "coffeeName": "Keurig® K-Classic® Coffee Maker",
+      "coffeePrice": "$139.99"
+    },
+
+    {
+      "coffeeImg": "../../images/coffee-makers/cmaker10.webp",
+      "coffeeName": "K-Supreme Plus® Single Serve Coffee Maker",
+      "coffeePrice": "$189.99"
+    },
+
+    {
+      "coffeeImg": "../../images/coffee-makers/cmaker11.webp",
+      "coffeeName": "Keurig® K155 OfficePRO® Premier Brewing System",
+      "coffeePrice": "$274.95"
+    },
+
+    {
+      "coffeeImg": "../../images/coffee-makers/cmaker12.webp",
+      "coffeeName": "K-Slim + ICED™ Single Serve Coffee Maker",
+      "coffeePrice": "$119.99"
+    }
+  ]
+}
